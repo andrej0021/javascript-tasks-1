@@ -6,16 +6,16 @@ var minutes = process.argv[3];
 
 function getRomanEquivalent (pos, value) {
 	switch (value) {
-		case 0: return  0;														
-		case 1: return  pos;	    	                            //			I
-		case 2: return  pos*10  + pos;		                      //		I	I
-		case 3: return  pos*100 + pos*10  +   pos;	          	//	I	I	I
-		case 4: return  pos*10  + (pos + 1);	                  //		I	V
-		case 5: return 	(pos + 1);	                            //			V
-		case 6: return  (pos + 1)*10  + pos;		                //		V	I
-		case 7: return  (pos + 1)*100	+	pos*10  + pos;	      	//	V	I	I
-		case 8: return  pos*100 + pos*10  + (pos + 2);	        //	I	I	X
-		case 9: return  pos*10  + (pos + 2);	                  //		I	X
+		case 0: return  0;											
+		case 1: return  pos;
+		case 2: return  pos*10  + pos;
+		case 3: return  pos*100 + pos*10  +   pos;
+		case 4: return  pos*10  + (pos + 1);
+		case 5: return 	(pos + 1);
+		case 6: return  (pos + 1)*10  + pos;
+		case 7: return  (pos + 1)*100	+	pos*10  + pos;
+		case 8: return  pos*100 + pos*10  + (pos + 2);
+		case 9: return  pos*10  + (pos + 2);
 	}
 }
 
