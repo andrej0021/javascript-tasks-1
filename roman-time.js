@@ -53,7 +53,7 @@ function unite (image_vector, heigh, gap) {
 
 function renderRomanTime(roman_hours, roman_minutes) {
 	var ROMAN_LETTER_I = 
-	           ['--@@@@@@@@@@@@--',
+	        				 ['--@@@@@@@@@@@@--',
 						  '--@@@@@@@@@@@@--',
 						  '-----@@@@@@-----',
 						  '-----@@@@@@-----',
@@ -66,7 +66,7 @@ function renderRomanTime(roman_hours, roman_minutes) {
 						  '--@@@@@@@@@@@@--'];
 	
 	var ROMAN_LETTER_V = 
-	           ['@@@@@----@@@@@@@',
+	        				 ['@@@@@----@@@@@@@',
 						  '@@@@@----@@@@@@@',
 						  '-@@@------@@@@@-',
 						  '-@@@------@@@@@-',
@@ -79,7 +79,7 @@ function renderRomanTime(roman_hours, roman_minutes) {
 						  '------@@@@------'];
 						  
 	var ROMAN_LETTER_X = 
-	           ['@@@@@@--@@@@@@@@',
+	        			  	 ['@@@@@@--@@@@@@@@',
 						  '@@@@@@---@@@@@@-',
 						  '-@@@@@---@@@@@--',
 						  '-@@@@@@-@@@@@@--',
@@ -92,7 +92,7 @@ function renderRomanTime(roman_hours, roman_minutes) {
 						  '@@@@@@@--@@@@@@@'];
 						  
 	var ROMAN_LETTER_L = 
-	           ['@@@@@@@@@@------',
+	           				 ['@@@@@@@@@@------',
 						  '-@@@@@@@@-------',
 						  '--@@@@@@--------',
 						  '--@@@@@@--------',
@@ -105,7 +105,7 @@ function renderRomanTime(roman_hours, roman_minutes) {
 						  '@@@@@@@@@@@@@@@@'];
 						  
 	var ROMAN_LETTER_C = 
-	           ['----@@@@@@@@@---',
+	        				 ['----@@@@@@@@@---',
 						  '-@@@@@@@@@@@@@@-',
 						  '@@@@@@@----@@@@@',
 						  '@@@@@--------@@@',
@@ -118,7 +118,7 @@ function renderRomanTime(roman_hours, roman_minutes) {
 						  '---@@@@@@@@@@---'];
 						  
 	var COLON = 
-	      ['--------',
+				['--------',
 				 '--------',
 				 '---@@---',
 				 '--@@@@--',
